@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #424242;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  position: absolute;
+}
+
+.first {
+  background-color: lightcoral;
+}
+
+.second {
+  background-color: teal;
+  right: 0px;
+}
+
+.three {
+  background-color: yellowgreen;
+  bottom: 0px;
+  right: 0px;
+}
+
+.four {
+  background-color: aquamarine;
+  bottom: 0px;
+  left: 0px;
+}
+
+.five {
+  background-color: violet;
+  transform: translateX(150%);
+}
+
+.six {
+  background-color: yellow;
+  right: 0px;
+  transform: translate(0, 150%);
+}
+
+.seven {
+  background-color: bisque;
+  bottom: 0px;
+  transform: translate(150%, 0);
+}
+
+.eight {
+  background-color: blue;
+  transform: translate(0, 150%);
+}
+
+.nine {
+  background-color: blueviolet;
+  transform: translate(150%, 150%);
+}

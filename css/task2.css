@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #1976d2;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.button:hover {
+  background-color: #115293;
+}
